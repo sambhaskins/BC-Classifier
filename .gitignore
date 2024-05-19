@@ -1,0 +1,25 @@
+# Exclude everything
+*
+
+# Whitelist files and directories
+!.gitignore
+!README.md
+!LICENSE
+!EDA.ipynb
+!requirements.txt
+
+# Datasets
+!BCCD_Dataset/
+!BCCD_Dataset/**
+!Complete-Blood-Cell-Count-Dataset/
+!Complete-Blood-Cell-Count-Dataset/**
+!PBC_dataset_normal_DIB/
+!PBC_dataset_normal_DIB/**
+!Blood-cell-segmentation-dataset/
+!Blood-cell-segmentation-dataset/**
+!combined_datasets/
+!combined_datasets/**
+
+# Ignore other stuff
+.DS_Store
+.ipynb_checkpoints/
